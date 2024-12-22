@@ -1,7 +1,5 @@
 # Synthetic-Emails-Generator
 
-# Synthetic Email Generator
-
 ## Overview
 This project generates synthetic email data from the Enron email dataset while preserving the structure and variability of real-world emails. It ensures de-identification of personally identifiable information (PII) and creates a dataset suitable for fine-tuning large language models (LLMs) like GPT-4.
 
