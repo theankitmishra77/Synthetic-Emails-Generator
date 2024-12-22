@@ -5,6 +5,10 @@
 ## Overview
 This project generates synthetic email data from the Enron email dataset while preserving the structure and variability of real-world emails. It ensures de-identification of personally identifiable information (PII) and creates a dataset suitable for fine-tuning large language models (LLMs) like GPT-4.
 
+## Dataset Link
+Download the Enron Email Dataset here:
+https://www.kaggle.com/datasets/wcukierski/enron-email-dataset
+
 ## Features
 1. **Email Parsing**: Extracts fields such as `Message-ID`, `From`, `To`, `Subject`, `Date`, and `Body` from raw email messages.
 2. **PII De-identification**: Uses `spaCy` for entity recognition and `Faker` for generating synthetic replacements for names, organizations, locations, and other sensitive data.
